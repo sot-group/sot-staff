@@ -1,0 +1,43 @@
+S.O.T. Staff Clocking – Planned Features (Future Versions)
+
+1. Filtering function in the Delete Entries menu
+   - Filter by user, date range, and action type (IN/OUT)
+
+2. Time and Salary Sheets
+   - Auto-generate time summaries for each staff from the Calendar
+   - Optional hourly rates
+   - Export salary summaries per month
+
+3. Monthly Total Hours in User Profile
+   - Show a monthly summary of hours worked directly on each staff member's user profile page
+
+4. Fallback or Warning for Missing Clock-Out
+   - Show warnings in Calendar and Admin tables when IN is not followed by OUT on the same day
+   - Option to auto-close shifts at 23:59 with a note
+
+5. Export to CSV
+   - Export entries from Delete Entries and Calendar views to CSV
+   - Include filters (user/month) in export logic
+
+6. Mobile-Optimized Frontend Clocking Page (future)
+   - Let staff clock in/out via mobile-friendly frontend page
+
+7. Role-Based Access Enhancements
+   - Let supervisors manage clocking for their team only
+   - Add permission control for calendar visibility
+
+8. Graphical Reporting
+   - Weekly and monthly charts showing hours per user or department
+
+9. Shift Scheduling Module
+   - Let Admins assign shifts, then compare actual vs scheduled hours
+
+10. Time-Tracking Accuracy Alerts
+   - Flag entries shorter than 5 minutes or longer than 14 hours
+
+This list can be extended with feedback from daily use.
+
+
+=== 2.8.0 (2025-08-29) ===
+- QR flow changed: scanning opens a confirmation page; staff must tap a button to clock IN/OUT.
+- Added nonce/security token and duplicate-submit guard (30s) to prevent accidental double entries on refresh.
